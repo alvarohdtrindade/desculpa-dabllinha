@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head>
+    <title>Para Dablla Gomes</title>
+</head>
+<body>
+    <h1>Bom dia em 7 línguas diferentes</h1>
+    <ul>
+        {% for idioma, traducao in traducoes.items() %}
+        <li>{{ idioma }}: {{ traducao }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
